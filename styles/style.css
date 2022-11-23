@@ -1,3 +1,26 @@
+* {
+    outline: 1px dashed gray;
+}
+
+:root {
+    --color-primary-red: hsl(1, 90%, 64%);
+    --color-primary-blue: hsl(219, 85%, 26%);
+    --color-main-background:hsl(210, 60%, 98%);
+    --color-unread-card-background: hsl(211, 68%, 94%);
+    --color-desktop-background: hsl(205, 33%, 90%);
+    --color-message-hover: hsl(219, 14%, 63%);
+    --color-text-color: hsl(219, 12%, 42%);
+    --color-dark-text-color: hsl(224, 21%, 14%);
+
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+
+
+
+
+
+
 .attribution {
     font-size: 11px;
     text-align: center;
