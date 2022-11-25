@@ -1,11 +1,11 @@
 * {
-    outline: 1px dashed gray;
+    /* outline: 1px dashed gray; */
 }
 
 :root {
     --color-primary-red: hsl(1, 90%, 64%);
     --color-primary-blue: hsl(219, 85%, 26%);
-    --color-main-background:hsl(210, 60%, 98%);
+    --color-body-background: hsl(210, 60%, 98%);
     --color-unread-card-background: hsl(211, 68%, 94%);
     --color-desktop-background: hsl(205, 33%, 90%);
     --color-message-hover: hsl(219, 14%, 63%);
@@ -15,8 +15,50 @@
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
+body {
+    padding: 20px;
+    background-color: var(--color-body-background);
+}
 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
 
+.notifications {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+
+h1 {
+    color: var(--color-dark-text-color);
+    font-size: 1.375rem;
+}
+
+.unread-count {
+    background-color: var(--color-primary-blue);
+    color: white;
+    width: 35px;
+    height: 30px;
+    line-height: 29px;
+    font-weight: 800;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1.125rem;
+}
+
+header button {
+    border: none;
+    padding: 0;
+    text-decoration: none;
+    background: none;
+    cursor: pointer;
+    color: var(--color-text-color);
+}
 
 
 
