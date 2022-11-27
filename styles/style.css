@@ -86,12 +86,12 @@ main {
     display: flex;
     flex-direction: column;
     gap: 5px;
+    color: var(--color-text-color);
 }
 
 .description {
     display: flex;
     gap: 10px;
-    
 }
 
 .description img {
@@ -105,7 +105,6 @@ main {
 }
 
 .post {
-    color: var(--color-text-color);
     font-weight: 800;
 }
 
