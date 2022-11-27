@@ -1,0 +1,5 @@
+- This site helped me vertically center the unicode red circle in a line.
+https://www.sitepoint.com/community/t/help-with-vertical-aligning-a-unicode-symbol/385770
+
+- This is where I found the unicode for the red circle.
+https://www.htmlsymbols.xyz/unicode/U+1F534
