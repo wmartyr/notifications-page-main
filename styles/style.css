@@ -72,12 +72,16 @@ main {
 .card {
     display: flex;
     gap: 10px;
-    background-color: var(--color-unread-card-background);
     border-radius: 10px;
     padding: 20px;
+    font-size: 0.875rem;
 }
 
-.avatar {
+.unread {
+    background-color: var(--color-unread-card-background);
+}
+
+.card img {
     width: 40px;
     height: 40px;
 }
@@ -106,10 +110,6 @@ main {
 .post {
     font-weight: 800;
 }
-
-/* .hidden {
-    display: none;
-} */
 
 .unread-dot {
     font-size: 0.625rem;
