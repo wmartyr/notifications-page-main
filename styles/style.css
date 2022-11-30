@@ -1,12 +1,12 @@
 * {
-    /* outline: 1px dashed gray; */
+    outline: 1px dashed gray;
 }
 
 :root {
     --color-primary-red: hsl(1, 90%, 64%);
     --color-primary-blue: hsl(219, 85%, 26%);
     --color-body-background: hsl(210, 60%, 98%);
-    --color-unread-card-background: hsl(211, 68%, 94%);
+    --color-private-message-background: hsl(211, 68%, 94%);
     --color-desktop-background: hsl(205, 33%, 90%);
     --color-message-hover: hsl(219, 14%, 63%);
     --color-text-color: hsl(219, 12%, 42%);
@@ -106,6 +106,7 @@ h1 {
 }
 
 .right-section {
+    flex: auto;
     display: flex;
     flex-direction: column;
     color: var(--color-text-color);
@@ -117,6 +118,7 @@ h1 {
 
 .description {
     display: flex;
+    justify-content: space-between;
     gap: 10px;
 }
 
@@ -138,11 +140,11 @@ h1 {
 .unread-dot {
     font-size: 0.625rem;
     vertical-align: text-top;
-    line-height: 2.25;
+    line-height: 2.15;
 }
 
 .private-message {
-    border: solid 1px var(--color-unread-card-background);
+    border: solid 1px var(--color-private-message-background);
     border-radius: 5px;
     padding: 20px;
     margin-top: 10px;
@@ -150,13 +152,12 @@ h1 {
 }
 
 .private-message:hover {
-    background-color: var(--color-unread-card-background);
+    background-color: var(--color-private-message-background);
 }
 
 .group {
     font-weight: 800;
-    color: var(--color-primary-blue);
-    cursor: pointer;
+     cursor: pointer;
 }
 
 .my-picture {
@@ -175,3 +176,5 @@ footer {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+/* TODO Fix footer on mobile view */
