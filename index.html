@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- displays site properly based on user's device -->
 
-  <!-- <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"> -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap" rel="stylesheet">
@@ -18,84 +18,92 @@
 </head>
 
 <body>
-  <header>
-    <div class="notifications">
-      <h1>Notifications</h1>
-      <div class="unread-count">3</div>
-    </div>
-    <button class="mark-as-read">Mark all as read</button>
-
-  </header>
   <main>
-    <div class="card unread">
-      <img class="avatar" src="./assets/images/avatar-mark-webber.webp" alt="Mark Webber Avatar">
-      <div class="right-section">
-        <div class="description">
-          <p><span class="name">Mark Webber</span>&nbsp;&nbsp;<span class="action">reacted to your recent post</span>&nbsp;&nbsp;<span class="post">My first tournament today!</span>&nbsp;&nbsp;<span class="unread-dot">&#128308;</span></p>
-        </div>
-        <div class="time-posted">1m ago</div>
+    <section class="top-section">
+      <div class="notifications">
+        <h1>Notifications</h1>
+        <div class="unread-count">3</div>
       </div>
-    </div>
-    <div class="card unread">
-      <img class="avatar" src="./assets/images/avatar-angela-gray.webp" alt="Angela Gray Avatar">
-      <div class="right-section">
-        <div class="description">
-          <p><span class="name">Angela Gray</span>&nbsp;&nbsp;<span class="action">followed you</span>&nbsp;&nbsp;<span class="unread-dot">&#128308;</span></p>
+      <button class="mark-as-read">Mark all as read</button>
+    </section>
+    <section class="main-section">
+      <div class="card unread">
+        <img class="avatar" src="./assets/images/avatar-mark-webber.webp" alt="Mark Webber Avatar">
+        <div class="right-section">
+          <div class="description">
+            <p><span class="name">Mark Webber</span>&nbsp;&nbsp;<span class="action">reacted to your recent
+                post</span>&nbsp;&nbsp;<span class="post">My first tournament today!</span>&nbsp;&nbsp;<span
+                class="unread-dot">&#128308;</span></p>
+          </div>
+          <div class="time-posted">1m ago</div>
         </div>
-        <div class="time-posted">5m ago</div>
       </div>
-    </div>
-    <div class="card unread">
-      <img class="avatar" src="./assets/images/avatar-jacob-thompson.webp" alt="Jacob Thompson Avatar">
-      <div class="right-section">
-        <div class="description">
-          <p><span class="name">Jacob Thompson</span>&nbsp;&nbsp;<span class="action">has joined your group</span>&nbsp;&nbsp;<span class="group">Chess Club</span>&nbsp;&nbsp;<span class="unread-dot">&#128308;</span></p>
+      <div class="card unread">
+        <img class="avatar" src="./assets/images/avatar-angela-gray.webp" alt="Angela Gray Avatar">
+        <div class="right-section">
+          <div class="description">
+            <p><span class="name">Angela Gray</span>&nbsp;&nbsp;<span class="action">followed
+                you</span>&nbsp;&nbsp;<span class="unread-dot">&#128308;</span></p>
+          </div>
+          <div class="time-posted">5m ago</div>
         </div>
-        <div class="time-posted">1 day ago</div>
       </div>
-    </div>
-    <div class="card">
-      <img class="avatar" src="./assets/images/avatar-rizky-hasanuddin.webp" alt="Rizky Hasanuddin Avatar">
-      <div class="right-section">
-        <div class="description">
-          <p><span class="name">Rizky Hasanuddin</span>&nbsp;&nbsp;<span class="action">sent you a private
-              message</span></p>
+      <div class="card unread">
+        <img class="avatar" src="./assets/images/avatar-jacob-thompson.webp" alt="Jacob Thompson Avatar">
+        <div class="right-section">
+          <div class="description">
+            <p><span class="name">Jacob Thompson</span>&nbsp;&nbsp;<span class="action">has joined your
+                group</span>&nbsp;&nbsp;<span class="group">Chess Club</span>&nbsp;&nbsp;<span
+                class="unread-dot">&#128308;</span></p>
+          </div>
+          <div class="time-posted">1 day ago</div>
         </div>
-        <div class="time-posted">5 days ago</div>
-        <div class="private-message">Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now
-          and I'm already having lots of fun and improving my game.</div>
       </div>
-    </div>
-    <div class="card">
-      <img class="avatar" src="./assets/images/avatar-kimberly-smith.webp" alt="Kimberly Smith Avatar">
-      <div class="right-section">
-        <div class="description">
-          <p><span class="name">Kimberly Smith</span>&nbsp;&nbsp;<span class="action">commented on your picture</span>
-          </p>
+      <div class="card">
+        <img class="avatar" src="./assets/images/avatar-rizky-hasanuddin.webp" alt="Rizky Hasanuddin Avatar">
+        <div class="right-section">
+          <div class="description">
+            <p><span class="name">Rizky Hasanuddin</span>&nbsp;&nbsp;<span class="action">sent you a private
+                message</span></p>
+          </div>
+          <div class="time-posted">5 days ago</div>
+          <div class="private-message">Hello, thanks for setting up the Chess Club. I've been a member for a few weeks
+            now
+            and I'm already having lots of fun and improving my game.</div>
         </div>
-        <div class="time-posted">1 week ago</div>
       </div>
-      <img src="./assets/images/image-chess.webp" alt="Image of a girl playing chess">
-    </div>
-    <div class="card">
-      <img class="avatar" src="./assets/images/avatar-nathan-peterson.webp" alt="Nathan Peterson Avatar">
-      <div class="right-section">
-        <div class="description">
-          <p><span class="name">Nathan Peterson</span>&nbsp;&nbsp;<span class="action">reacted to your recent post</span>&nbsp;&nbsp;<span class="post">5 end-game strategies to increase your win rate</p>
+      <div class="card">
+        <img class="avatar" src="./assets/images/avatar-kimberly-smith.webp" alt="Kimberly Smith Avatar">
+        <div class="right-section">
+          <div class="description">
+            <p><span class="name">Kimberly Smith</span>&nbsp;&nbsp;<span class="action">commented on your picture</span>
+            </p>
+          </div>
+          <div class="time-posted">1 week ago</div>
         </div>
-        <div class="time-posted">2 weeks ago</div>
+        <img class="my-picture" src="./assets/images/image-chess.webp" alt="Image of a girl playing chess">
       </div>
-    </div>
-    <div class="card">
-      <img class="avatar" src="./assets/images/avatar-anna-kim.webp" alt="Anna Kim Avatar">
-      <div class="right-section">
-        <div class="description">
-          <p><span class="name">Anna Kim</span>&nbsp;&nbsp;<span class="action">left the group</span>&nbsp;&nbsp;<span class="group">Chess Club</span></p>
+      <div class="card">
+        <img class="avatar" src="./assets/images/avatar-nathan-peterson.webp" alt="Nathan Peterson Avatar">
+        <div class="right-section">
+          <div class="description">
+            <p><span class="name">Nathan Peterson</span>&nbsp;&nbsp;<span class="action">reacted to your recent
+                post</span>&nbsp;&nbsp;<span class="post">5 end-game strategies to increase your win rate</p>
+          </div>
+          <div class="time-posted">2 weeks ago</div>
         </div>
-        <div class="time-posted">2 weeks ago</div>
       </div>
-    </div>
-
+      <div class="card">
+        <img class="avatar" src="./assets/images/avatar-anna-kim.webp" alt="Anna Kim Avatar">
+        <div class="right-section">
+          <div class="description">
+            <p><span class="name">Anna Kim</span>&nbsp;&nbsp;<span class="action">left the group</span>&nbsp;&nbsp;<span
+                class="group">Chess Club</span></p>
+          </div>
+          <div class="time-posted">2 weeks ago</div>
+        </div>
+      </div>
+    </section>
   </main>
   <footer>
     <div class="attribution">

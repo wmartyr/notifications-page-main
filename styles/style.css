@@ -16,11 +16,23 @@
 }
 
 body {
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 200px;
     background-color: var(--color-body-background);
 }
 
-header {
+main {
+    padding: 20px;
+    background-color: white;
+    min-width: 375px;
+    max-width: 750px;
+    border-radius: 20px;
+}
+
+.top-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -51,7 +63,7 @@ h1 {
     font-size: 1.125rem;
 }
 
-header button {
+.top-section button {
     border: none;
     padding: 0;
     text-decoration: none;
@@ -60,7 +72,14 @@ header button {
     color: var(--color-text-color);
 }
 
-main {
+.top-section button:hover,
+.name:hover,
+.post:hover,
+.group:hover {
+    color: var(--color-primary-blue);
+}
+
+.main-section {
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -78,7 +97,7 @@ main {
 }
 
 .unread {
-    background-color: var(--color-unread-card-background);
+    background-color: var(--color-body-background);
 }
 
 .card img {
@@ -90,6 +109,10 @@ main {
     display: flex;
     flex-direction: column;
     color: var(--color-text-color);
+}
+
+.name {
+    cursor: pointer;
 }
 
 .description {
@@ -109,26 +132,40 @@ main {
 
 .post {
     font-weight: 800;
+    cursor: pointer;
 }
 
 .unread-dot {
     font-size: 0.625rem;
     vertical-align: text-top;
-    line-height: 2.25 ;
+    line-height: 2.25;
 }
 
 .private-message {
-    border: solid 1px var(--color-message-hover);
+    border: solid 1px var(--color-unread-card-background);
     border-radius: 5px;
     padding: 20px;
     margin-top: 10px;
+    cursor: pointer;
+}
+
+.private-message:hover {
+    background-color: var(--color-unread-card-background);
 }
 
 .group {
     font-weight: 800;
     color: var(--color-primary-blue);
+    cursor: pointer;
 }
 
+.my-picture {
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 50px;
+}
 
 .attribution {
     font-size: 11px;
