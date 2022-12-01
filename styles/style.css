@@ -1,5 +1,5 @@
 * {
-    outline: 1px dashed gray;
+    /* outline: 1px dashed gray; */
 }
 
 :root {
@@ -20,7 +20,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 50px 200px;
+    /* padding: 50px min(calc(100%-375px), 200px); */
+    padding: 50px 0;
     background-color: var(--color-body-background);
 }
 
