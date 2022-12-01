@@ -158,7 +158,7 @@ h1 {
 
 .group {
     font-weight: 800;
-    cursor: pointer;
+     cursor: pointer;
 }
 
 .my-picture {
@@ -178,8 +178,6 @@ footer {
     color: hsl(228, 45%, 44%);
 }
 
-@media only screen and (max-width: 375px) {
-    body {
-        padding: 0;
-    }
+@media screen {
+    
 }
