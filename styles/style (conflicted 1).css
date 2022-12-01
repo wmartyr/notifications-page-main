@@ -1,3 +1,7 @@
+* {
+    /* outline: 1px dashed gray; */
+}
+
 :root {
     --color-primary-red: hsl(1, 90%, 64%);
     --color-primary-blue: hsl(219, 85%, 26%);
